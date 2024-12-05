@@ -7,7 +7,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "sudo npm run build",
-    "deploy": "sudo gh-pages --dist dist",
+    "deploy": "gh-pages --dist dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
